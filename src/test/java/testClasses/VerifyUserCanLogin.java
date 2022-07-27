@@ -31,7 +31,9 @@ public class VerifyUserCanLogin {
 	LoginPage lp;
 	
 	ExtentHtmlReporter ExtentReporter;
+	
 	ExtentReports report;
+	
 	ExtentTest test;
 	
 	
