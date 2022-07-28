@@ -49,7 +49,7 @@ public class Util {
 	{
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		String path = "Screenshots//"+ sName + ".jpg";
+		String path = "Screenshots//"+ sName + ".png";
 		File dest = new File(path);
 		FileHandler.copy(source, dest);
 		return path;
