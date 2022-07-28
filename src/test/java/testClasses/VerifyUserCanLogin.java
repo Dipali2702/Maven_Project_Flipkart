@@ -32,6 +32,7 @@ public class VerifyUserCanLogin {
 	
 	ExtentHtmlReporter ExtentReporter;
 	
+	
 	ExtentReports report;
 	
 	ExtentTest test;
